@@ -6,13 +6,13 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "gcc",
+            "command": "gcc",//注意，如果是c程序就是gcc，如果是c++程序就是g++，这一点很重要
             "args": [
                 "-g", 
                 "${file}", 
                 "-o", 
                 "${fileBasenameNoExtension}.exe",
-                "-fexec-charset=GBK"//解决中文乱码
+                "-fexec-charset=UTF-8"//解决中文乱码，之前GBK老是无法让终端和窗口同时输出中文后改为UTF-8可以同时输出中文
             ]
         }
     ],
