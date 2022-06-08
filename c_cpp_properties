@@ -1,16 +1,16 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Win64",//之前是Win32，后改为的Win64
             "includePath": [
                 "${workspaceRoot}",
-                "E:/VsCode/gcc/mingw64/include/**",
-                "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-                "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-                "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-                "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
+                "C:/Program Files/Git/mingw64/include/**",
+                "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                "C:/program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+                "C:/program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+                "C:/program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "C:/program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+                "C:/program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -18,19 +18,19 @@
                 "__GNUC__=6",
                 "__cdecl=__attribute__((__cdecl__))"
             ],
-            "intelliSenseMode": "msvc-x64",
+            "intelliSenseMode": "gcc-x64",//之前是msvc-x64后改为gcc-x64
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": "",
                 "path": [
                     "${workspaceRoot}",
-                    "E:/VsCode/gcc/mingw64/include/**",
-                    "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-                    "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-                    "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-                    "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-                    "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-                    "E:/VsCode/gcc/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
+                    "C:/Program Files/Git/mingw64/include/**",
+                    "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                    "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+                    "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+                    "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                    "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+                    "C:/Program Files/Git/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
                 ]
             }
         }
